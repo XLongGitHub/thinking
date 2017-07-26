@@ -1,5 +1,6 @@
+import java.util.Date;
 public class HelloDate{
     public static void main(String[] args) {
-        IO.println("Hello, World");
+        System.out.println("Hello, World" + new Date());
     }
 }
