@@ -44,3 +44,6 @@ Temporary Items
 
 *.class
 TIJ4-code/*
+/bin/
+.classpath
+.project
