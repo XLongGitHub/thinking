@@ -43,6 +43,9 @@ Temporary Items
 .apdisk
 
 *.class
+*.xml
+*.iml
+.idea
 TIJ4-code/*
 /bin/
 .classpath
