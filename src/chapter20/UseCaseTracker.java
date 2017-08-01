@@ -10,8 +10,8 @@ public class UseCaseTracker {
         	UseCase uc = m.getAnnotation(UseCase.class);
         	if (uc != null) {
         		System.out.println("Use: " + uc.id() + " : " + uc.description());
-        		useCases.remove(uc.id());
-//        		useCases.remove(new Integer(uc.id()));
+//        		useCases.remove(uc.id());
+        		useCases.remove(new Integer(uc.id()));
         	}
         }
         
